@@ -1,0 +1,269 @@
+.borderpane
+{
+    -fx-background-color:transparent;
+}
+.result
+{
+	-fx-background-color: green;
+    
+     -fx-border-color:  transparent;
+     -fx-border-width: 0 0 0 0;
+        -fx-text-align:right;
+     -fx-font: normal bold 46 Langdon;
+     -fx-prompt-text-fill:white;
+     -fx-prompt-font-size:16px;
+     -fx-text-fill:white;
+}
+.numbers
+{
+    
+                -fx-min-width: 53px;
+                -fx-min-height: 53px;
+                -fx-max-width: 200px;
+                -fx-max-height: 200px;
+                -fx-border-color: transparent;
+                -fx-background-color: transparent;
+                -fx-font-size:36px;
+}
+.back
+{   
+    -fx-background-radius:5em;
+                -fx-min-width: 53px;
+                -fx-min-height: 53px;
+                -fx-max-width: 100px;
+                -fx-max-height: 100px;
+                -fx-border-color: transparent;
+                -fx-background-color: transparent;
+                -fx-font-size:36px;
+                -fx-text-fill:red;
+
+}
+.ca{
+    -fx-min-width: 53px;
+                -fx-min-height: 53px;
+                -fx-max-width: 100px;
+                -fx-max-height: 100px;
+                -fx-border-color: transparent;
+                -fx-background-color: bfbfbf;
+                -fx-font-size:36px;
+                -fx-text-fill:white;
+}
+.ca:hover
+{
+
+                -fx-background-color: red;
+              
+                -fx-text-fill:white;
+}
+.more
+{   
+                -fx-min-width: 53px;
+                -fx-min-height: 53px;
+                -fx-max-width: 100px;
+                -fx-max-height: 200px;
+                -fx-border-color: transparent;
+                -fx-background-color: transparent;
+                -fx-font-size:36px;
+                -fx-text-fill:black;
+
+
+}
+.more:hover
+{
+
+                -fx-background-color: #0099ff;
+              
+                -fx-text-fill:white;
+}
+
+.back:hover
+{
+
+               
+              
+                -fx-text-fill:white;
+}
+#backb:hover
+{
+    -fx-text-fill:grey;
+}
+#backw:hover
+{
+    -fx-text-fill:white;
+}
+#numbersbk:hover
+{
+    -fx-background-color:#999999;
+      -fx-text-fill:white;
+}
+#numbersr:hover
+{
+    -fx-background-color:#ffb3b3;
+      -fx-text-fill:white;
+}
+#numbersb:hover
+{
+    -fx-background-color:#cceeff;
+      -fx-text-fill:white;
+}
+#numbersy:hover
+{
+    -fx-background-color:#ffffcc;
+      -fx-text-fill:white;
+}
+#numbersg:hover
+{
+    -fx-background-color:#e6ffb3;
+      -fx-text-fill:white;
+}
+.decimal
+{
+	
+                -fx-min-width: 53px;
+                -fx-min-height: 53px;
+                -fx-max-width: 200px;
+                -fx-max-height: 200px;
+                -fx-border-color: transparent;
+                -fx-background-color: transparent;
+                -fx-font-size:36px;
+                 -fx-text-fill:green;
+}
+.decimal:hover
+{
+    -fx-background-color:#80ff80;
+      -fx-text-fill:white;
+
+}
+.equals:hover
+{
+        -fx-background-color:#80ff80;
+          -fx-text-fill:white;
+}
+
+.equals
+{
+	
+                -fx-min-width: 53px;
+                -fx-min-height: 53px;
+                -fx-max-width: 200px;
+                -fx-max-height: 200px;
+                -fx-border-color: transparent;
+                -fx-background-color: transparent;
+                -fx-font-size:36px;
+                -fx-text-fill:green;
+}
+.operator
+{
+	
+                -fx-min-width: 53px;
+                -fx-min-height: 53px;
+                -fx-max-width: 150px;
+                -fx-max-height: 150px;
+                -fx-border-color: transparent;
+                -fx-background-color: transparent;
+                -fx-font-size:28px;	
+                -fx-text-fill:white;
+}
+.numberBox
+{
+
+     -fx-background-color:  transparent;
+}
+.operatorBox
+{
+
+     -fx-background-color:  #bfbfbf;
+}
+.redButton
+{
+	 -fx-background-color:#ff4d4d;
+    -fx-background-radius: 5em;
+     -fx-background-radius: 5em; 
+     -fx-min-width: 13px;      
+     -fx-min-height: 13px;  
+     -fx-max-width: 40px;  
+     -fx-max-height: 40px;
+}
+.blueButton
+{
+ -fx-background-color:#80dfff;
+    -fx-background-radius: 5em;
+     -fx-background-radius: 5em; 
+     -fx-min-width: 13px;      
+     -fx-min-height: 13px;  
+     -fx-max-width: 40px;  
+     -fx-max-height: 40px;
+}
+.yellowButton
+{
+	 -fx-background-color:#ffff66;
+    -fx-background-radius: 5em;
+     -fx-background-radius: 5em; 
+     -fx-min-width: 13px;      
+     -fx-min-height: 13px;  
+     -fx-max-width: 40px;  
+     -fx-max-height: 40px;
+}
+.greenButton
+{
+	 -fx-background-color:#ccff66;
+    -fx-background-radius: 5em;
+     -fx-background-radius: 5em; 
+     -fx-min-width: 13px;      
+     -fx-min-height: 13px;  
+     -fx-max-width: 40px;  
+     -fx-max-height: 40px;
+}
+.blackButton
+{
+ -fx-background-color:black;
+    -fx-background-radius: 5em;
+     -fx-background-radius: 5em; 
+     -fx-min-width: 13px;      
+     -fx-min-height: 13px;  
+     -fx-max-width: 40px;  
+     -fx-max-height: 40px;
+}
+.whiteButton
+{
+ -fx-background-color:white;
+    -fx-background-radius: 5em;
+     -fx-background-radius: 5em; 
+     -fx-min-width: 13px;      
+     -fx-min-height: 13px;  
+     -fx-max-width: 40px;  
+     -fx-max-height: 40px;
+}
+.colorBox
+{
+	     -fx-border-color:  transparent;
+}
+/*Hovers*/
+.operator:hover
+{
+	-fx-background-color:#e6e6e6;
+}
+.redButton:hover
+{
+	-fx-background-color:#ffcccc;
+}
+.blueButton:hover
+{
+	-fx-background-color:#e6f9ff;
+}
+.yellowButton:hover
+{
+	-fx-background-color:#ffffe6;
+}
+.greenButton:hover
+{
+	-fx-background-color:#eeffcc;
+}
+.blackButton:hover
+{
+	-fx-background-color:#999999;
+}
+.blackButton:hover
+{
+    -fx-background-color:#999999;
+}
